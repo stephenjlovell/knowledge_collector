@@ -1,7 +1,6 @@
 Rails.application.routes.draw do
 
-  mount Upmin::Engine => '/admin'
-
+  mount RailsAdmin::Engine => '/admin', as: 'rails_admin'
   root to: 'visitors#index'
   # link_to "Dashboards", knowledge_collector.root_path
 

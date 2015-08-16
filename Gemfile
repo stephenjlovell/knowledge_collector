@@ -22,7 +22,10 @@ gem 'puma'
 
 gem 'pundit'
 gem 'simple_form'
-gem 'upmin-admin'
+
+# gem 'upmin-admin'
+gem 'rails_admin'
+
 
 group :development do
   gem 'better_errors'
